@@ -8,30 +8,48 @@
 <body>
     
     <script>
-     /*Even Odd Number.*/
+
+     /*Even Odd Number*/
+
         const number= parseInt(prompt("Enter the Number :"))
         if (number%2==0)
         {
-            console.log(`${number} is Even`);
+            console.log(`${number} is Even.`);
         } 
         else
         {
-            console.log(`${number} is Odd`);
+            console.log(`${number} is Odd.`);
         }
 
+
      /*Positive Negative Number*/ 
+
        const num = parseInt(prompt("Enter the number :"))
        if (num<0)
        {
-          console.log(`${num} Is a Negative Number`);
+          console.log(`${num} Is a Negative Number.`)
        }
        else if(num>0)
        {
-          console.log(`${num} Is a Positive Number`);
+          console.log(`${num} Is a Positive Number.`)
        }
        else
        {
           console.log('number is zero')
+       }
+
+
+       /*Greater Number*/
+
+       const num1 = parseInt(prompt("Enter number 1 :"));
+       const num2 = parseInt(prompt("Enter number 2 :"));
+       if (num1>num2)
+       {
+        console.log(`${num1} Is greater than ${num2}.`)
+       }
+       else
+       {
+        console.log(`${num2} Is greater than ${num1}.`)
        }
      </script>
 </body>
